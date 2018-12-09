@@ -1,4 +1,6 @@
-# Calculate second lowest cost silver plan (SLCSP)
+## My solution to a coding challenge completed as part of a job application.
+
+# Instructions:  Calculate second lowest cost silver plan (SLCSP)
 
 ## Problem
 
