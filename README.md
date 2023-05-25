@@ -1,4 +1,4 @@
-## My solution to a coding challenge completed as part of a job application.
+## My solution to a coding challenge
 
 # Instructions:  Calculate second lowest cost silver plan (SLCSP)
 
