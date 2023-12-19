@@ -1,4 +1,12 @@
-## My solution to a coding challenge
+# My solution to a coding challenge to calculate the second lowest cost silver plan healthcare benchmark (problem statement shown below)
+I first load the data (CSV files), then parse and populate appropriately constructed Pandas dataframes with the cleaned up data.  Attention
+is then restricted to 'rate areas' in which more than one silver plan is offered - using filters and a many-to-many join - since 
+a given rate area needs to offer at least two silver plans for an slcsp to exist.
+
+I then create a new dataframe where each row has a unique (zipcode, rate_area) combination so that frequency counts can be used to find the
+number of rate areas in a particular zipcode, identify zipcodes that map to a single rate area, and extract the associated plan data.  Finally,
+set & sorted are used to extract unique rates in ascending order, so we can safely take the second element as the slcsp without having to 
+separately check for the special case of repeated lowest rates.
 
 # Instructions:  Calculate second lowest cost silver plan (SLCSP)
 
